@@ -37,7 +37,7 @@ class SayfaController extends Controller
             ));
             if ($kaydet)
             {
-                return redirect() ->route('index');
+                return  "Kitap Adı: ".$kitapadi."<br>"."<br>"."Kitap Türü: ".$kitapturu."<br>"."<br>"."Kitap Sayfası: ".$kitapsayfa;
             }
         }
     }
